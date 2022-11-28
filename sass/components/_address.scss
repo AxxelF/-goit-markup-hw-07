@@ -1,0 +1,23 @@
+.address-list{
+    padding-top: 20px;
+    margin-right: 70px;
+
+    &__item:not(:last-child){
+    padding-bottom: 9px;
+    }
+
+    &__link{
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.71;     
+    }
+
+    &__map-link{
+        color: var(--primary-bg-color);
+    }
+
+    &__mail-link, 
+    &__tel-link{
+    color: var(--footer-contacts-color);
+    }
+}

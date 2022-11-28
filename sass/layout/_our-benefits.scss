@@ -1,0 +1,41 @@
+.our-benefits{
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    &-list{
+        display: flex;
+    
+        &__item:not(:last-child){
+            margin-right: 30px;
+        }
+    
+        &__wrapper{
+            width: 270px;
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+            background-color: var(--our-team-bg-color);
+            border-radius: 4px;
+        }
+    
+        &__icon{
+            border-radius: 4px;
+        }
+    
+        &__title{
+            font-weight: 700;
+            line-height: 16px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            color: var(--secondary-title-color);
+        }
+    
+        &__txt{
+            max-width: 270px;
+            line-height: 1.71;
+            color: var(--primary-txt-color);    
+        }
+    }
+}

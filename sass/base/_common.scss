@@ -1,0 +1,19 @@
+body{
+    /* position: relative; */
+font-family: Roboto, sans-serif;
+letter-spacing: 0.03em;
+font-size: 14px;
+color: var(--primary-txt-color);
+}
+
+  .link{
+    transition: color var(--cubic-bezier-transition);
+  }
+
+  .link:hover, .link:focus{
+    color: var(--accent-color);
+  }
+
+  .btn{
+    border: none;
+  }

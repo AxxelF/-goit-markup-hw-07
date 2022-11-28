@@ -1,0 +1,30 @@
+.contacts-list{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+
+    &__item:first-child{
+        margin-right: 50px; 
+    }
+
+    &__link{
+        display: inline-flex;        
+        color: var(--primary-txt-color);
+        align-items: center;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+    }
+
+    &__icon{
+        fill: currentColor;
+        margin-right: 10px;
+    }
+}
+
+
+
+
+
+
